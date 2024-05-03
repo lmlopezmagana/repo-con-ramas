@@ -12,5 +12,11 @@ public class MainController {
 		model.addAttribute("mensaje", "Hola Mundo, chavalada");
 		return "index";
 	}
+	
+	@GetMapping("/list")
+	public String listadoProductos() {
+		// Mostrar el listado de productos
+		return "";	
+	}
 
 }
