@@ -13,5 +13,10 @@ public class MainController {
 		return "index";
 	}
 	
+	@GetMapping("/list")
+	public String listadoProductos() {
+		// Mostrar el listado de productos
+		return "";	
+	}
 
 }
