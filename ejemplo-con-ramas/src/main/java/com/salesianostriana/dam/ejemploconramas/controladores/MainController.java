@@ -12,5 +12,6 @@ public class MainController {
 		model.addAttribute("mensaje", "Hola Mundo, chavalada");
 		return "index";
 	}
+	
 
 }
