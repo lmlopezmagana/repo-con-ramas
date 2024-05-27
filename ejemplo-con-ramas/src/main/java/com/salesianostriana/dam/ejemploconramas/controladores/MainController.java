@@ -18,5 +18,10 @@ public class MainController {
 		// Mostrar el listado de productos
 		return "";	
 	}
+	
+	@GetMapping("/producto/nuevo")
+	public String nuevoProducto() {
+		return "";
+	}
 
 }
